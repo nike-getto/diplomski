@@ -11,6 +11,12 @@ contract Pay {
         s_addressToPay = _addressToPay;
     }
 
+    // Pay functions
+    function payEth() public {
+        (bool s, ) = s_addressToPay.call{value: s_amountToPay}("");
+        require(s, "Transaction failed");
+    }
+
     // Getter functions
     function getAmountToPay() public view returns (uint256) {
         return s_amountToPay;
