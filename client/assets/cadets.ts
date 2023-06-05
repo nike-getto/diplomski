@@ -1,5 +1,14 @@
 import { StaticImageData } from 'next/image'
-import glavudzaJa from './glavudza.png'
+
+import sava from './cadetImages/glavudza.png'
+import mihailo from './cadetImages/mihailoTomic.jpg'
+import miroslav from './cadetImages/miroslavSabo.jpg'
+import stefan from './cadetImages/stefanIvanovic.jpg'
+import nikola from './cadetImages/nikolaCitic.jpg'
+import nemanja from './cadetImages/nemanjaKaplanovic.jpg'
+import milica from './cadetImages/milicaMarinkovic.jpg'
+import djordje from './cadetImages/djordjeCvijanovic.jpg'
+import branislav from './cadetImages/branislavBelotic.jpg'
 
 export let cadets: {
 	id: number
@@ -15,7 +24,7 @@ export let cadets: {
 		surname: 'Станишић',
 		grade: '6.00',
 		birthplace: 'Ужице',
-		img: glavudzaJa,
+		img: sava,
 	},
 	{
 		id: 1,
@@ -23,7 +32,7 @@ export let cadets: {
 		surname: 'Томић',
 		grade: '6.00',
 		birthplace: 'Чачак',
-		img: glavudzaJa,
+		img: mihailo,
 	},
 	{
 		id: 2,
@@ -31,7 +40,7 @@ export let cadets: {
 		surname: 'Сабо',
 		grade: '6.00',
 		birthplace: 'Стара Пазова',
-		img: glavudzaJa,
+		img: miroslav,
 	},
 	{
 		id: 3,
@@ -39,7 +48,7 @@ export let cadets: {
 		surname: 'Ивановић',
 		grade: '6.00',
 		birthplace: 'Шабац',
-		img: glavudzaJa,
+		img: stefan,
 	},
 	{
 		id: 4,
@@ -47,7 +56,7 @@ export let cadets: {
 		surname: 'Ћитић',
 		birthplace: 'Крагујевац',
 		grade: '6.00',
-		img: glavudzaJa,
+		img: nikola,
 	},
 	{
 		id: 5,
@@ -55,7 +64,7 @@ export let cadets: {
 		surname: 'Белотић',
 		birthplace: 'Нови Сад',
 		grade: '6.00',
-		img: glavudzaJa,
+		img: branislav,
 	},
 	{
 		id: 6,
@@ -63,7 +72,7 @@ export let cadets: {
 		surname: 'Цвијановић',
 		birthplace: 'Добој',
 		grade: '6.00',
-		img: glavudzaJa,
+		img: djordje,
 	},
 	{
 		id: 7,
@@ -71,7 +80,7 @@ export let cadets: {
 		surname: 'Каплановић',
 		birthplace: 'Смедерево',
 		grade: '6.00',
-		img: glavudzaJa,
+		img: nemanja,
 	},
 	{
 		id: 8,
@@ -79,6 +88,6 @@ export let cadets: {
 		surname: 'Маринковић',
 		birthplace: 'Нови Пазар',
 		grade: '6.00',
-		img: glavudzaJa,
+		img: milica,
 	},
 ]

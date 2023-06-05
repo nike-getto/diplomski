@@ -10,7 +10,7 @@ type Props = {}
 export default function List({}: Props) {
 	const [text] = useTypewriter({
 		words: [
-			'Студенти смера информациони системи',
+			'Кадети смера информациони системи',
 			'144. класа Војне академије',
 		],
 		loop: 0,

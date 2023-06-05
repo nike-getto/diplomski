@@ -27,10 +27,9 @@ export default function ListItem({
 		>
 			<Card>
 				<Image
-					className='w-auto'
+					className='w-auto h-[340px]'
 					src={img}
-					height={340}
-					alt='glavudza'
+					alt='cadetImage'
 				/>
 			</Card>
 			<div className='flex flex-col gap-y-4 text-white'>
